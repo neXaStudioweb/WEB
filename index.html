@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexa Studio — Webs para negocios que quieren ser elegidos</title>
+  <meta name="description" content="Creamos webs claras, elegantes y funcionales para negocios que quieren transmitir confianza y captar más clientes. Pago único. Primer año incluido.">
+  <link rel="icon" type="image/png" href="assets/assetsfavicon.png.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav__logo">Nexa Studio</a>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#proceso">Proceso</a></li>
+      <li><a href="#inversion">Inversión</a></li>
+      <li><a href="#faq">Preguntas</a></li>
+    </ul>
+    <a href="#contacto" class="nav__cta">Pedir presupuesto</a>
+    <button class="nav__burger" id="navBurger" aria-label="Abrir menú">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__center">
+      <div class="hero__eyebrow">Estudio de diseño digital</div>
+      <h1 class="hero__title">
+        <span class="line--serif">Diseño web</span>
+        <span class="line--sans">para negocios</span>
+        <span class="line--serif line--serif-late">con criterio.</span>
+      </h1>
+      <p class="hero__sub">Webs claras, elegantes y funcionales<br>para negocios que quieren ser elegidos.</p>
+      <div class="hero__ctas">
+        <a href="#contacto" class="btn btn--dark">Pedir presupuesto</a>
+        <a href="#proceso" class="btn btn--ghost">Cómo trabajamos</a>
+      </div>
+    </div>
+    <div class="hero__bottom">
+      <div class="hero__scroll-hint">
+        <span>Descubrir</span>
+        <div class="hero__scroll-line"><div class="hero__scroll-ball"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Clínicas estéticas</span><span class="sep">·</span>
+      <span>Barberías</span><span class="sep">·</span>
+      <span>Gimnasios</span><span class="sep">·</span>
+      <span>Restaurantes</span><span class="sep">·</span>
+      <span>Academias</span><span class="sep">·</span>
+      <span>Centros de belleza</span><span class="sep">·</span>
+      <span>Profesionales independientes</span><span class="sep">·</span>
+      <span>Clínicas estéticas</span><span class="sep">·</span>
+      <span>Barberías</span><span class="sep">·</span>
+      <span>Gimnasios</span><span class="sep">·</span>
+      <span>Restaurantes</span><span class="sep">·</span>
+      <span>Academias</span><span class="sep">·</span>
+      <span>Centros de belleza</span><span class="sep">·</span>
+      <span>Profesionales independientes</span><span class="sep">·</span>
+    </div>
+  </div>
+
+  <!-- INTRO -->
+  <section class="intro">
+    <div class="intro__inner reveal">
+      <div class="intro__left">
+        <div class="section-label">Sobre Nexa</div>
+      </div>
+      <div class="intro__right">
+        <h2 class="intro__title">Menos ruido digital.<br><em>Más clientes reales.</em></h2>
+        <p class="intro__text">Creamos presencias digitales para negocios que saben lo que son. Webs que explican, convencen y conectan. Sin plantillas, sin atajos, sin relleno.</p>
+        <p class="intro__text">Cada proyecto es único, pensado para tu cliente y adaptado a tu sector. Lista desde el primer día.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SELECTOR -->
+  <section class="selector" id="selector">
+    <div class="selector__header reveal">
+      <div class="section-label">Encuentra tu solución</div>
+      <h2 class="section-title">¿Qué tipo de negocio tienes?</h2>
+    </div>
+    <div class="selector__pills reveal">
+      <button class="pill pill--active" data-sector="clinica">Clínica estética</button>
+      <button class="pill" data-sector="barberia">Barbería · Peluquería</button>
+      <button class="pill" data-sector="gimnasio">Gimnasio · Fitness</button>
+      <button class="pill" data-sector="restaurante">Restaurante · Café</button>
+      <button class="pill" data-sector="academia">Academia · Formación</button>
+      <button class="pill" data-sector="independiente">Profesional independiente</button>
+    </div>
+    <div class="selector__body">
+      <div class="selector__message" id="selectorMessage">
+        <div class="selector__msg-left">
+          <h3 id="selectorTitle">Tu clínica, al nivel de tu trabajo.</h3>
+          <p id="selectorText">Tus tratamientos son premium. Tu web debería serlo también. Una presencia digital que transmite confianza desde la primera visita y convierte visitas en citas.</p>
+          <a href="#contacto" class="btn btn--dark">Quiero esta web</a>
+        </div>
+        <div class="selector__msg-right">
+          <div id="selectorBenefits">
+            <div class="benefit">
+              <div class="benefit__num">01</div>
+              <div class="benefit__text">Sistema de reservas online integrado</div>
+            </div>
+            <div class="benefit">
+              <div class="benefit__num">02</div>
+              <div class="benefit__text">Galería de tratamientos y resultados</div>
+            </div>
+            <div class="benefit">
+              <div class="benefit__num">03</div>
+              <div class="benefit__text">Diseño que transmite confianza médica</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="servicios" id="servicios">
+    <div class="servicios__header reveal">
+      <div class="section-label">Lo que hacemos</div>
+      <h2 class="section-title">Una web completa.<br><em>Sin sorpresas.</em></h2>
+    </div>
+    <div class="servicios__grid">
+      <div class="s-card reveal">
+        <div class="s-card__num">01</div>
+        <h3 class="s-card__title">Diseño a medida</h3>
+        <p class="s-card__text">Cada web se plantea desde cero según tu negocio, tu cliente y tu objetivo. Sin estructuras genéricas ni soluciones copiadas.</p>
+        <div class="s-card__bar"></div>
+      </div>
+      <div class="s-card reveal">
+        <div class="s-card__num">02</div>
+        <h3 class="s-card__title">Adaptada a móvil</h3>
+        <p class="s-card__text">El 80% de tus clientes te buscan desde el teléfono. Tu web funciona perfecta en cualquier pantalla.</p>
+        <div class="s-card__bar"></div>
+      </div>
+      <div class="s-card reveal">
+        <div class="s-card__num">03</div>
+        <h3 class="s-card__title">Lista para captar</h3>
+        <p class="s-card__text">WhatsApp, formulario de contacto y botón de reserva. Estructura pensada para convertir visitas en clientes.</p>
+        <div class="s-card__bar"></div>
+      </div>
+      <div class="s-card reveal">
+        <div class="s-card__num">04</div>
+        <h3 class="s-card__title">Primer año incluido</h3>
+        <p class="s-card__text">Hosting, dominio y publicación incluidos en el precio del proyecto. Sin sorpresas al mes siguiente.</p>
+        <div class="s-card__bar"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="proceso" id="proceso">
+    <div class="proceso__header reveal">
+      <div class="section-label">Cómo trabajamos</div>
+      <h2 class="section-title">De cero a publicado<br><em>en pocas semanas.</em></h2>
+    </div>
+    <div class="proceso__steps" id="procesoSteps">
+      <div class="proceso__track" aria-hidden="true">
+        <div class="proceso__fill" id="procesoFill"></div>
+      </div>
+      <div class="paso reveal">
+        <div class="paso__num">01</div>
+        <div class="paso__body">
+          <h3 class="paso__title">Briefing y estrategia</h3>
+          <p class="paso__text">Entendemos tu negocio, tu cliente ideal y lo que necesita tu web para funcionar. Nada de formularios genéricos.</p>
+        </div>
+      </div>
+      <div class="paso reveal">
+        <div class="paso__num">02</div>
+        <div class="paso__body">
+          <h3 class="paso__title">Diseño y revisión</h3>
+          <p class="paso__text">Presentamos el diseño completo antes de programar. Tú apruebas o pedimos ajustes. Sin coste extra.</p>
+        </div>
+      </div>
+      <div class="paso reveal">
+        <div class="paso__num">03</div>
+        <div class="paso__body">
+          <h3 class="paso__title">Desarrollo y pruebas</h3>
+          <p class="paso__text">Programamos tu web, la probamos en dispositivos reales y verificamos velocidad, SEO básico y funcionamiento completo.</p>
+        </div>
+      </div>
+      <div class="paso reveal">
+        <div class="paso__num">04</div>
+        <div class="paso__body">
+          <h3 class="paso__title">Publicación y entrega</h3>
+          <p class="paso__text">Tu web en vivo, con hosting y dominio activos. Te explicamos cómo funciona todo y quedamos disponibles para lo que necesites.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INVERSIÓN -->
+  <section class="inversion" id="inversion">
+    <div class="inversion__inner reveal">
+      <div class="inversion__left">
+        <div class="section-label">La inversión</div>
+        <h2 class="inversion__title">Presupuesto claro.<br><em>Primer año incluido.</em></h2>
+        <p class="inversion__sub">Segundo año flexible.</p>
+        <p class="inversion__desc">Cada proyecto se valora según lo que necesita tu negocio. Te preparamos una propuesta clara, sin mensualidades obligatorias y con el primer año incluido.</p>
+      </div>
+      <div class="inversion__right">
+        <div class="inversion__card">
+          <div class="inversion__card-top">
+            <span class="inversion__tag">Presupuesto personalizado</span>
+          </div>
+          <ul class="inversion__list">
+            <li>Pago único por creación</li>
+            <li>Primer año de hosting incluido</li>
+            <li>Dominio y configuración inicial</li>
+            <li>Soporte básico durante el primer año</li>
+            <li>Segundo año flexible</li>
+            <li>Mantenimiento opcional con Nexa</li>
+          </ul>
+          <div class="inversion__sep"></div>
+          <div class="inversion__year2">
+            <strong>Sin mensualidad obligatoria</strong>
+            <p>A partir del segundo año, te preparamos una propuesta de mantenimiento adaptada a lo que necesites.</p>
+          </div>
+          <a href="#contacto" class="btn btn--dark btn--full">Solicitar presupuesto</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="faq__header reveal">
+      <div class="section-label">Preguntas frecuentes</div>
+      <h2 class="section-title">Lo que suelen<br><em>preguntarnos.</em></h2>
+    </div>
+    <div class="faq__list">
+      <div class="faq-item reveal">
+        <button class="faq-q">¿Qué incluye el primer año?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>El primer año cubre todo lo necesario para que tu web esté activa: diseño, desarrollo, publicación, hosting, dominio y soporte básico. Todo en un único pago, sin coste adicional hasta finalizar el año.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">¿Qué pasa después del primer año?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Al finalizar el primer año, te contactamos para preparar una propuesta de mantenimiento adaptada a tus necesidades. Sin compromiso previo ni mensualidad obligatoria.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">¿Cuánto tarda en estar lista la web?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Entre 3 y 6 semanas desde el inicio del proyecto. El plazo varía según la complejidad, pero siempre te informamos antes de empezar.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">¿Puedo pedir cambios cuando quiera?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Sí. Puedes pedir los cambios que necesites cuando quieras. La idea es que tu web pueda adaptarse a tu negocio con total facilidad, sin procesos complicados.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">¿Cómo se calcula el presupuesto?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Valoramos cada proyecto según lo que necesita: número de páginas, funcionalidades, complejidad del diseño y plazo. Te enviamos una propuesta detallada antes de empezar, sin compromisos.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">¿Necesito tener el contenido preparado?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>No es imprescindible. Te guiamos para que sepas exactamente qué textos e imágenes necesitamos. Si aún no tienes todo, podemos ayudarte a organizarlo antes de empezar.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta-final" id="contacto">
+    <div class="cta-final__inner reveal">
+      <div class="cta-final__label">Empecemos</div>
+      <h2 class="cta-final__title">Tu negocio merece<br>una web que venda.</h2>
+      <p class="cta-final__sub">Cuéntanos qué necesitas. Te respondemos en menos de 24 horas.</p>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <input type="hidden" name="access_key" value="a69b5ddb-cb89-4b25-94b6-d24ab39de1d7">
+        <input type="hidden" name="subject"    value="Nuevo mensaje desde Nexa Studio">
+
+        <div class="form-row">
+          <div class="form-group">
+            <input type="text"  name="name"    id="fname"    placeholder="Tu nombre" required autocomplete="name">
+          </div>
+          <div class="form-group">
+            <input type="email" name="email"   id="femail"   placeholder="Tu email"  required autocomplete="email">
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="fmessage" placeholder="Cuéntanos qué necesitas para tu web…" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--white btn--full" id="formSubmit">Enviar mensaje</button>
+        <div class="form-feedback" id="formFeedback" aria-live="polite"></div>
+        <p class="form-privacy">Tus datos se usan únicamente para responder a tu consulta.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__logo">NEXA</div>
+      <nav class="footer__nav">
+        <a href="aviso-legal.html">Aviso legal</a>
+        <a href="privacidad.html">Privacidad</a>
+        <a href="cookies.html">Cookies</a>
+      </nav>
+      <p class="footer__copy">© 2026 Nexa Studio · Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
